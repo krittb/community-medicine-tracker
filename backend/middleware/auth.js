@@ -1,3 +1,7 @@
+// auth.js — JWT verification middleware
+// verifyToken: checks Bearer token on every protected route
+// authorizeRole: restricts access based on user role (patient/doctor/pharmacist/admin)
+
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
