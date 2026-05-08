@@ -154,3 +154,9 @@ All errors follow this format:
 | 403 | Insufficient role permissions |
 | 404 | Resource not found |
 | 500 | Internal server error |
+
+---
+## Notes
+- All dates use ISO format: `YYYY-MM-DD`
+- All responses include a `success: true/false` field
+- Token expiry is set to 7 days by default (configurable via JWT_EXPIRE in .env)
