@@ -20,6 +20,7 @@ export default function BookAppointment() {
     }
   }, [form.doctorId, form.date]);
 
+  // Prevent booking appointments in the past
   const today = new Date().toISOString().split('T')[0];
 
   const handle = async (e) => {
