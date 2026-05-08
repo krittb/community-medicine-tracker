@@ -129,6 +129,18 @@ Full API docs: [docs/API_DOCUMENTATION.md](./docs/API_DOCUMENTATION.md)
 7. Patient views prescription history anytime
 
 ---
+## Folder Summary
+
+| Folder | Purpose |
+|--------|---------|
+| backend/models | Mongoose schemas for all 5 collections |
+| backend/controllers | Business logic for each route group |
+| backend/routes | Express routers with role-based guards |
+| frontend/src/pages | One folder per role (patient/doctor/pharmacist/admin) |
+| frontend/src/context | AuthContext — global user state and JWT storage |
+| docs/ | API docs, DB schema, architecture, AI reflection |
+
+---
 
 ## AI Tool Used
 Claude by Anthropic — see [docs/AI_USAGE_LOG_AND_REFLECTION.md](./docs/AI_USAGE_LOG_AND_REFLECTION.md) for full log and reflection.
