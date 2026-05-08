@@ -36,6 +36,9 @@ const seed = async () => {
     { name: 'Pantoprazole 40mg', category: 'antacid', quantity: 180, unit: 'tablets', threshold: 30, manufacturer: 'Sun Pharma', price: 6 },
     { name: 'Dolo 650mg', category: 'analgesic', quantity: 400, unit: 'tablets', threshold: 60, manufacturer: 'Micro Labs', price: 3 },
     { name: 'Ibuprofen 400mg', category: 'analgesic', quantity: 250, unit: 'tablets', threshold: 40, manufacturer: 'Cipla', price: 5 },
+    { name: 'Aspirin 75mg', category: 'analgesic', quantity: 320, unit: 'tablets', threshold: 40, manufacturer: 'Bayer', price: 2 },
+    { name: 'Metronidazole 400mg', category: 'antibiotic', quantity: 180, unit: 'tablets', threshold: 25, manufacturer: 'Cipla', price: 6 },
+    { name: 'Zinc Supplement', category: 'supplement', quantity: 5, unit: 'tablets', threshold: 30, manufacturer: 'Abbott', price: 4 },
   ];
   await Medicine.insertMany(medicines);
 
